@@ -314,7 +314,7 @@ $ sudo -u postgres psql $DATABASE_DATABASE -c '\d'
 
 ```
 
-(On MacOS, expect to see your ```whoami``` rather than `postgres`. Entries with
+(On MacOS, expect to see your ``\`whoami\``` rather than `postgres`. Entries with
 `$DATABASE_USERNAME` will have the valuei of that parameter, whether set as an
 environment variable or as a JSON keyval; it will not show the literal string.)
 
